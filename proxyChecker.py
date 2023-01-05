@@ -85,6 +85,7 @@ def check(file, timeout, method, site, verbose, random_user_agent):
             f.write(str(proxy) + "\n")
 
     print(f"Found {len(valid_proxies)} valid proxies")
+    print(valid_proxies)
 
 
 if __name__ == "__main__":
